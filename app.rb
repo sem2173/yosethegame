@@ -8,6 +8,6 @@ end
 get '/ping' do 
 
   content_type :json
-  { :alive => 'true'}.to_json
+  { :alive => true }.to_json
 end
 
