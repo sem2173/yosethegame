@@ -1,9 +1,8 @@
 require 'sinatra'
 require 'json'
 
-get '/' do
-  'Hello Yose!'
-  File.read('index.html')
+get '/' do  
+  erb :index
 end
 
 get '/ping' do
